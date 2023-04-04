@@ -1408,10 +1408,6 @@ macro (rock_find_qt5)
     if(Qt5_FOUND)
         set(ROCK_QT_VERSION 5)
         set(ROCK_QT_VERSION_5 ON)
-
-        set(CMAKE_AUTOMOC ON)
-        set(CMAKE_AUTORCC ON)
-        set(CMAKE_AUTOUIC ON)
     endif()
 endmacro()
 
